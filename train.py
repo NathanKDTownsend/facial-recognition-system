@@ -8,7 +8,7 @@ import random
 import tensorflow as tf
 
 # Load all images and labels from the Training folder
-dataset_path = "/Users/yesiagreethx/Desktop/Facial_Recognition_Dataset"
+dataset_path = "Facial_Recognition_Dataset"
 X, y_cat, class_names = load_dataset(dataset_path)
 
 # Split into 80% training and 20% temporary set, then split temp 50/50 into val and test
