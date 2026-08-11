@@ -66,7 +66,7 @@ def preprocess_image(img_path, img_size=(48,48)):
     return img
 
 # Load all images from the Testing folder, organised by class subdirectory
-testing_path = "/Users/yesiagreethx/Desktop/Facial_Recognition_Dataset/Testing"
+testing_path = "Facial_Recognition_Dataset/Testing"
 test_images = []
 test_labels = []
 for idx, expression in enumerate(class_names):
