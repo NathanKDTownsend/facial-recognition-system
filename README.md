@@ -8,7 +8,17 @@ This project trains a convolutional neural network to classify facial expression
 
 The objective of this project was implementing each of these components correctly, the custom layer's modified net input and gradient rules, SGD with momentum as the optimiser, and genetic algorithm hyperparameter search, rather than maximising raw classification accuracy. See the Results section below for more on this.
 
-<img src="terminal-output.png" width="300"/> <img src="confusion-matrix.png" width="300"/> <img src="sample-predictions.png" width="300"/>
+## Training run, genetic algorithm hyperparameter search
+<img src="training-terminal.png" width="700"/>
+
+### Final evaluation output
+<img src="evaluation-output.png" width="400"/>
+
+### Confusion matrix
+<img src="confusion-matrix.png" width="450"/>
+
+### Sample predictions
+<img src="sample-predictions.png" width="700"/>
 
 ## Features
 
