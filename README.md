@@ -1,12 +1,12 @@
 # Facial Expression Recognition System
 
-A CNN-based facial expression recognition system built in Python/Keras, using a genetic algorithm to search for optimal model hyperparameters. Classifies faces into six emotion categories: Angry, Fear, Happy, Neutral, Sad, Surprise.
+A CNN based facial expression recognition system built in Python/Keras, using a genetic algorithm to search for optimal model hyperparameters. Classifies faces into six emotion categories: Angry, Fear, Happy, Neutral, Sad, Surprise.
 
 ## Overview
 
 This project trains a convolutional neural network to classify facial expressions from grayscale images. It includes a custom perceptron layer implementing a modified quadratic net input formula, with hand-derived backpropagation rules for that layer, and uses a genetic algorithm to search across CNN hyperparameters (number of convolutional blocks, filter counts, dense units, learning rate) before training the final model on the full dataset.
 
-The objective of this project was implementing each of these components correctly, the custom layer's modified net input and gradient rules, SGD with momentum as the optimiser, and genetic algorithm hyperparameter search — rather than maximising raw classification accuracy. See the Results section below for more on this.
+The objective of this project was implementing each of these components correctly, the custom layer's modified net input and gradient rules, SGD with momentum as the optimiser, and genetic algorithm hyperparameter search, rather than maximising raw classification accuracy. See the Results section below for more on this.
 
 <img src="terminal-output.png" width="300"/> <img src="confusion-matrix.png" width="300"/> <img src="sample-predictions.png" width="300"/>
 
