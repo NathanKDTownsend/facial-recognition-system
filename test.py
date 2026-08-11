@@ -107,7 +107,7 @@ for i, idx in enumerate(sample_indices):
     plt.title(f"True: {true_label}\nPred: {pred_label}")
     plt.axis('off')
 plt.tight_layout()
-plt.show()
+plt.savefig('sample_predictions.png')
 
 # Render confusion matrix heatmap to show per-class prediction distribution
 plt.figure(figsize=(8, 6))
@@ -115,7 +115,7 @@ sns.heatmap(cm, annot=True, fmt='d', xticklabels=class_names, yticklabels=class_
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.title("Confusion Matrix")
-plt.show()
+plt.savefig('confusion_matrix.png')
 
 # Print final evaluation metrics
 print("\n--- Test Set Performance ---")
